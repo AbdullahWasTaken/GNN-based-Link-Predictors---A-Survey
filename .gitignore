@@ -1,0 +1,4 @@
+__pycache__
+checkpoints/config_*
+data
+plot.png
