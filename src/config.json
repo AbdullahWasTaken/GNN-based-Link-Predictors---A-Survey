@@ -1,0 +1,23 @@
+{
+	"DATASET": {
+		"FAMILY": "Planetoid",
+		"NAME": "Cora",
+		"TESTSIZE": 0.1,
+		"VALSIZE": 0.05
+	},
+	"MODEL": {
+		"TYPE": "GAE",
+		"ENCODER": {
+			"TYPE": "GCN",
+			"NUM_LAYERS": 2,
+			"OUT_LAYERS": 16
+		},
+		"DECODER": {
+			"TYPE": "InnerProductDecoder"
+		}
+	},
+	"TRAINER": {
+		"LR": 0.01
+	},
+	"EPOCH": 500
+}
